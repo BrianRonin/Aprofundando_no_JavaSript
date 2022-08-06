@@ -4,7 +4,7 @@
 
 ![ProgramadorBr](ProgramadorBr.png)
 
-## oqoue achei?
+## oque achei?
 
 E vou ser sincero eu acho uma merda esse curso hoje em dia, embora tenha sido meu pontapé inicial, o curso custa quase mil real tem muita propaganda esse curso e o cara utiliza var em pleno 2022 e não se aprofunda nas coisas ja vi gente reclamando do curso no Reclame Aqui, os vídeos chegam a bater 6 minutos parece até curso grátis da rocketseat que picota em vários vídeos de 3 minutos mais para frente do curso parece que ele perde a vontade de ensinar se não me engano ele nem aborda oque é classe algo super utilizado atualmente principalmente no *React* embora a entrada dos hooks agora, ou se aborda, abordou tão mal que nem me lembro e muita coisa desatualizada, mas isso eu percebi que tem em todos cursos coisa desatualizada já que na nossa área de um dia para outro o código já não é o mesmo
 
