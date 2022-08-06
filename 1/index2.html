@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <br>
+   <h1>Seu numero é <span id="numero1"></span></h1>
+   <br>
+   <h2>Raiz quadrada: <span id="numero2"></span></h2>
+   <br>
+   <h2>É NaN: <span id="numero3"></span></h2>
+   <br>
+   <h2>Arredondado pra baixo: <span id="numero4"></span></h2>
+   <br>
+   <h2>Arredondado pra cima: <span id="numero5"></span></h2>
+   <br>
+   <h2>Com duas casas decimais: <span id="numero6"></span></h2>
+
+
+   <script>
+
+      num = Number(prompt('Qual o seu numero?'))
+
+
+      num1 = document.getElementById('numero1')
+      num2 = document.getElementById('numero2')
+      num3 = document.getElementById('numero3')
+      num4 = document.getElementById('numero4')
+      num5 = document.getElementById('numero5')
+      num6 = document.getElementById('numero6')
+
+
+      num1.innerHTML = num
+      num2.innerHTML = Math.sqrt(num).toFixed(3)
+      num3.innerHTML = isNaN(num)
+      num4.innerHTML = Math.floor(num)
+      num5.innerHTML = Math.ceil(num)
+      num6.innerHTML = num.toFixed(2)
+
+
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --primary: rgb(53, 28, 4);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  background-color: black;
+  margin-top: 40px;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  color: black;
+}
+
+form input:focus {
+  outline: 1px solid rgb(0, 247, 255);
+}
+
+form button {
+  border: none;
+  background-color: black;
+  margin-top: 15px;
+  padding: 40px;
+}
